@@ -34,7 +34,7 @@
             // 
             // btnNube
             // 
-            this.btnNube.Location = new System.Drawing.Point(187, 186);
+            this.btnNube.Location = new System.Drawing.Point(155, 131);
             this.btnNube.Name = "btnNube";
             this.btnNube.Size = new System.Drawing.Size(75, 23);
             this.btnNube.TabIndex = 0;
@@ -45,7 +45,7 @@
             // lblPruba
             // 
             this.lblPruba.AutoSize = true;
-            this.lblPruba.Location = new System.Drawing.Point(197, 121);
+            this.lblPruba.Location = new System.Drawing.Point(165, 66);
             this.lblPruba.Name = "lblPruba";
             this.lblPruba.Size = new System.Drawing.Size(65, 13);
             this.lblPruba.TabIndex = 1;
