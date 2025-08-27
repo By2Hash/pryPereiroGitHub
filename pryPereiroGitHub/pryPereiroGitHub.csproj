@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="pryGithub.cs">
+    <Compile Include="frmGithub.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pryGithub.Designer.cs">
-      <DependentUpon>pryGithub.cs</DependentUpon>
+    <Compile Include="frmGithub.Designer.cs">
+      <DependentUpon>frmGithub.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -63,8 +63,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="pryGithub.resx">
-      <DependentUpon>pryGithub.cs</DependentUpon>
+    <EmbeddedResource Include="frmGithub.resx">
+      <DependentUpon>frmGithub.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

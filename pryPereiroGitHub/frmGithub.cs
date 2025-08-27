@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pryPereiroGitHub
 {
-    public partial class pryGithub : Form
+    public partial class frmGithub : Form
     {
-        public pryGithub()
+        public frmGithub()
         {
             InitializeComponent();
         }

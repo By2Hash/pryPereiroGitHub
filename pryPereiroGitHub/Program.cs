@@ -16,7 +16,7 @@ namespace pryPereiroGitHub
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new pryGithub());
+            Application.Run(new frmGithub());
         }
     }
 }

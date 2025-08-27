@@ -1,6 +1,6 @@
 ﻿namespace pryPereiroGitHub
 {
-    partial class pryGithub
+    partial class frmGithub
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,21 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnNube = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // pryGithub
+            // btnNube
+            // 
+            this.btnNube.Location = new System.Drawing.Point(92, 98);
+            this.btnNube.Name = "btnNube";
+            this.btnNube.Size = new System.Drawing.Size(75, 23);
+            this.btnNube.TabIndex = 0;
+            this.btnNube.Text = "Nube";
+            this.btnNube.UseVisualStyleBackColor = true;
+            // 
+            // frmGithub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "pryGithub";
-            this.Text = "Form1";
+            this.Controls.Add(this.btnNube);
+            this.Name = "frmGithub";
+            this.Text = "Prueba Git";
             this.Load += new System.EventHandler(this.pryGithub_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnNube;
     }
 }
 
