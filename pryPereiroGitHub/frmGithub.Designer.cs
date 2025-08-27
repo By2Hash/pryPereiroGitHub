@@ -30,6 +30,8 @@
         {
             this.btnNube = new System.Windows.Forms.Button();
             this.lblPruba = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnNube
@@ -51,16 +53,28 @@
             this.lblPruba.TabIndex = 1;
             this.lblPruba.Text = "Hola Mundo";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::pryPereiroGitHub.Properties.Resources.fondo2025;
+            this.pictureBox1.Location = new System.Drawing.Point(60, 190);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(189, 125);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmGithub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(448, 329);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblPruba);
             this.Controls.Add(this.btnNube);
             this.Name = "frmGithub";
             this.Text = "Prueba Git";
             this.Load += new System.EventHandler(this.pryGithub_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -70,6 +84,7 @@
 
         private System.Windows.Forms.Button btnNube;
         private System.Windows.Forms.Label lblPruba;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
