@@ -21,5 +21,10 @@ namespace pryPereiroGitHub
         {
 
         }
+
+        private void btnNube_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

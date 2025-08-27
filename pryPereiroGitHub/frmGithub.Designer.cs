@@ -29,33 +29,47 @@
         private void InitializeComponent()
         {
             this.btnNube = new System.Windows.Forms.Button();
+            this.lblPruba = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnNube
             // 
-            this.btnNube.Location = new System.Drawing.Point(92, 98);
+            this.btnNube.Location = new System.Drawing.Point(187, 186);
             this.btnNube.Name = "btnNube";
             this.btnNube.Size = new System.Drawing.Size(75, 23);
             this.btnNube.TabIndex = 0;
             this.btnNube.Text = "Nube";
             this.btnNube.UseVisualStyleBackColor = true;
+            this.btnNube.Click += new System.EventHandler(this.btnNube_Click);
+            // 
+            // lblPruba
+            // 
+            this.lblPruba.AutoSize = true;
+            this.lblPruba.Location = new System.Drawing.Point(197, 121);
+            this.lblPruba.Name = "lblPruba";
+            this.lblPruba.Size = new System.Drawing.Size(65, 13);
+            this.lblPruba.TabIndex = 1;
+            this.lblPruba.Text = "Hola Mundo";
             // 
             // frmGithub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(448, 329);
+            this.Controls.Add(this.lblPruba);
             this.Controls.Add(this.btnNube);
             this.Name = "frmGithub";
             this.Text = "Prueba Git";
             this.Load += new System.EventHandler(this.pryGithub_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btnNube;
+        private System.Windows.Forms.Label lblPruba;
     }
 }
 
